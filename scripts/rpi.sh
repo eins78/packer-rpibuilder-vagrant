@@ -9,8 +9,8 @@ INSTALL_LIST=$(cat <<-EOF | grep -v '#' | xargs
 	# List of packages to install
         apt-cacher-ng
 	# RPI builder dependencies: https://github.com/RPi-Distro/pi-gen
-	git autoconf autotools-dev libtool debootstrap quilt build-essential fakeroot pkg-config
-	xxd zerofree dosfstools libcap2-bin binfmt-support qemu-user-static
+	coreutils quilt parted qemu-user-static debootstrap zerofree zip
+	dosfstools bsdtar libcap2-bin grep rsync xz-utils file git curl bc
 	# https://mender.io/
 	# https://github.com/mendersoftware/mender-convert
 	golang
