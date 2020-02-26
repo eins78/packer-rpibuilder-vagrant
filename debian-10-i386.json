@@ -1,6 +1,6 @@
 {
-  "_comment": "Debian Buster CD install (netboot)",
-  "_comment": "https://www.debian.org/releases/buster/debian-installer/",
+  "___comment": "Debian Buster CD install (netboot)",
+  "__comment": "https://www.debian.org/releases/buster/debian-installer/",
   "_comment": "to get the links and the MD5 checksum",
   "variables": {
     "vm_description": "Debian Buster 32 bit for Raspberry PI builder",
